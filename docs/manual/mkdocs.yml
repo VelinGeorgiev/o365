@@ -1,0 +1,274 @@
+site_name: Office 365 CLI
+nav:
+  - Home: 'index.md'
+  - User Guide:
+    - 'Installing the CLI': 'user-guide/installing-cli.md'
+    - 'Using the CLI': 'user-guide/using-cli.md'
+    - 'Logging in to Office 365': 'user-guide/connecting-office-365.md'
+    - 'CLI output mode': 'user-guide/cli-output-mode.md'
+  - Commands:
+    - SharePoint Online (spo):
+      - login: 'cmd/spo/login.md'
+      - logout: 'cmd/spo/logout.md'
+      - status: 'cmd/spo/status.md'
+      - app:
+        - app add: 'cmd/spo/app/app-add.md'
+        - app deploy: 'cmd/spo/app/app-deploy.md'
+        - app get: 'cmd/spo/app/app-get.md'
+        - app install: 'cmd/spo/app/app-install.md'
+        - app list: 'cmd/spo/app/app-list.md'
+        - app remove: 'cmd/spo/app/app-remove.md'
+        - app retract: 'cmd/spo/app/app-retract.md'
+        - app uninstall: 'cmd/spo/app/app-uninstall.md'
+        - app upgrade: 'cmd/spo/app/app-upgrade.md'
+      - cdn:
+        - cdn get: 'cmd/spo/cdn/cdn-get.md'
+        - cdn origin add: 'cmd/spo/cdn/cdn-origin-add.md'
+        - cdn origin list: 'cmd/spo/cdn/cdn-origin-list.md'
+        - cdn origin remove: 'cmd/spo/cdn/cdn-origin-remove.md'
+        - cdn policy list: 'cmd/spo/cdn/cdn-policy-list.md'
+        - cdn policy set: 'cmd/spo/cdn/cdn-policy-set.md'
+        - cdn set: 'cmd/spo/cdn/cdn-set.md'
+      - contenttype:
+        - contenttype add: 'cmd/spo/contenttype/contenttype-add.md'
+        - contenttype get: 'cmd/spo/contenttype/contenttype-get.md'
+        - contenttype field set: 'cmd/spo/contenttype/contenttype-field-set.md'
+      - customaction:
+        - customaction add: 'cmd/spo/customaction/customaction-add.md'
+        - customaction clear: 'cmd/spo/customaction/customaction-clear.md'
+        - customaction get: 'cmd/spo/customaction/customaction-get.md'
+        - customaction list: 'cmd/spo/customaction/customaction-list.md'
+        - customaction remove: 'cmd/spo/customaction/customaction-remove.md'
+        - customaction set: 'cmd/spo/customaction/customaction-set.md'
+      - externaluser:
+        - externaluser list: 'cmd/spo/externaluser/externaluser-list.md'
+      - field:
+        - field add: 'cmd/spo/field/field-add.md'
+        - field get: 'cmd/spo/field/field-get.md'
+      - file:
+        - file add: 'cmd/spo/file/file-add.md'
+        - file checkin: 'cmd/spo/file/file-checkin.md'
+        - file checkout: 'cmd/spo/file/file-checkout.md'
+        - file copy: 'cmd/spo/file/file-copy.md'
+        - file get: 'cmd/spo/file/file-get.md'
+        - file list: 'cmd/spo/file/file-list.md'
+        - file remove: 'cmd/spo/file/file-remove.md'
+      - folder:
+        - folder add: 'cmd/spo/folder/folder-add.md'
+        - folder copy: 'cmd/spo/folder/folder-copy.md'
+        - folder get: 'cmd/spo/folder/folder-get.md'
+        - folder list: 'cmd/spo/folder/folder-list.md'
+        - folder remove: 'cmd/spo/folder/folder-remove.md'
+        - folder rename: 'cmd/spo/folder/folder-rename.md'
+      - hidedefaultthemes:
+        - hidedefaultthemes get: 'cmd/spo/hidedefaultthemes/hidedefaultthemes-get.md'
+        - hidedefaultthemes set: 'cmd/spo/hidedefaultthemes/hidedefaultthemes-set.md'
+      - hubsite:
+        - hubsite connect: 'cmd/spo/hubsite/hubsite-connect.md'
+        - hubsite data get: 'cmd/spo/hubsite/hubsite-data-get.md'
+        - hubsite disconnect: 'cmd/spo/hubsite/hubsite-disconnect.md'
+        - hubsite get: 'cmd/spo/hubsite/hubsite-get.md'
+        - hubsite list: 'cmd/spo/hubsite/hubsite-list.md'
+        - hubsite register: 'cmd/spo/hubsite/hubsite-register.md'
+        - hubsite rights grant: 'cmd/spo/hubsite/hubsite-rights-grant.md'
+        - hubsite rights revoke: 'cmd/spo/hubsite/hubsite-rights-revoke.md'
+        - hubsite set: 'cmd/spo/hubsite/hubsite-set.md'
+        - hubsite theme sync: 'cmd/spo/hubsite/hubsite-theme-sync.md'
+        - hubsite unregister: 'cmd/spo/hubsite/hubsite-unregister.md'
+      - list:
+        - list add: 'cmd/spo/list/list-add.md'
+        - list get: 'cmd/spo/list/list-get.md'
+        - list list: 'cmd/spo/list/list-list.md'
+        - list remove: 'cmd/spo/list/list-remove.md'
+        - list set: 'cmd/spo/list/list-set.md'
+        - list webhook get: 'cmd/spo/list/list-webhook-get.md'
+        - list webhook list: 'cmd/spo/list/list-webhook-list.md'
+      - listitem:
+        - listitem add: 'cmd/spo/listitem/listitem-add.md'
+        - listitem get: 'cmd/spo/listitem/listitem-get.md'
+        - listitem list: 'cmd/spo/listitem/listitem-list.md'
+        - listitem remove: 'cmd/spo/listitem/listitem-remove.md'
+        - listitem set: 'cmd/spo/listitem/listitem-set.md'
+      - navigation:
+        - navigation node add: 'cmd/spo/navigation/navigation-node-add.md'
+        - navigation node list: 'cmd/spo/navigation/navigation-node-list.md'
+        - navigation node remove: 'cmd/spo/navigation/navigation-node-remove.md'
+      - page:
+        - page add: 'cmd/spo/page/page-add.md'
+        - page get: 'cmd/spo/page/page-get.md'
+        - page list: 'cmd/spo/page/page-list.md'
+        - page remove: 'cmd/spo/page/page-remove.md'
+        - page set: 'cmd/spo/page/page-set.md'
+        - page clientsidewebpart add: 'cmd/spo/page/page-clientsidewebpart-add.md'
+        - page column get: 'cmd/spo/page/page-column-get.md'
+        - page column list: 'cmd/spo/page/page-column-list.md'
+        - page control get: 'cmd/spo/page/page-control-get.md'
+        - page control list: 'cmd/spo/page/page-control-list.md'
+        - page section add: 'cmd/spo/page/page-section-add.md'
+        - page section get: 'cmd/spo/page/page-section-get.md'
+        - page section list: 'cmd/spo/page/page-section-list.md'
+      - propertybag:
+        - propertybag get: 'cmd/spo/propertybag/propertybag-get.md'
+        - propertybag list: 'cmd/spo/propertybag/propertybag-list.md'
+        - propertybag remove: 'cmd/spo/propertybag/propertybag-remove.md'
+        - propertybag set: 'cmd/spo/propertybag/propertybag-set.md'
+      - serviceprincipal:
+        - serviceprincipal grant list: 'cmd/spo/serviceprincipal/serviceprincipal-grant-list.md'
+        - serviceprincipal grant revoke: 'cmd/spo/serviceprincipal/serviceprincipal-grant-revoke.md'
+        - serviceprincipal permissionrequest approve: 'cmd/spo/serviceprincipal/serviceprincipal-permissionrequest-approve.md'
+        - serviceprincipal permissionrequest deny: 'cmd/spo/serviceprincipal/serviceprincipal-permissionrequest-deny.md'
+        - serviceprincipal permissionrequest list: 'cmd/spo/serviceprincipal/serviceprincipal-permissionrequest-list.md'
+        - serviceprincipal set: 'cmd/spo/serviceprincipal/serviceprincipal-set.md'
+      - site:
+        - site add: 'cmd/spo/site/site-add.md'
+        - site get: 'cmd/spo/site/site-get.md'
+        - site list: 'cmd/spo/site/site-list.md'
+        - site set: 'cmd/spo/site/site-set.md'
+        - site appcatalog add: 'cmd/spo/site/site-appcatalog-add.md'
+        - site appcatalog remove: 'cmd/spo/site/site-appcatalog-remove.md'
+        - site classic add: 'cmd/spo/site/site-classic-add.md'
+        - site classic list: 'cmd/spo/site/site-classic-list.md'
+        - site classic remove: 'cmd/spo/site/site-classic-remove.md'
+        - site classic set: 'cmd/spo/site/site-classic-set.md'
+        - site o365group set: 'cmd/spo/site/site-o365group-set.md'
+      - sitedesign:
+        - sitedesign add: 'cmd/spo/sitedesign/sitedesign-add.md'
+        - sitedesign apply: 'cmd/spo/sitedesign/sitedesign-apply.md'
+        - sitedesign get: 'cmd/spo/sitedesign/sitedesign-get.md'
+        - sitedesign list: 'cmd/spo/sitedesign/sitedesign-list.md'
+        - sitedesign remove: 'cmd/spo/sitedesign/sitedesign-remove.md'
+        - sitedesign set: 'cmd/spo/sitedesign/sitedesign-set.md'
+        - sitedesign rights grant: 'cmd/spo/sitedesign/sitedesign-rights-grant.md'
+        - sitedesign rights list: 'cmd/spo/sitedesign/sitedesign-rights-list.md'
+        - sitedesign rights revoke: 'cmd/spo/sitedesign/sitedesign-rights-revoke.md'
+      - sitescript:
+        - sitescript add: 'cmd/spo/sitescript/sitescript-add.md'
+        - sitescript get: 'cmd/spo/sitescript/sitescript-get.md'
+        - sitescript list: 'cmd/spo/sitescript/sitescript-list.md'
+        - sitescript remove: 'cmd/spo/sitescript/sitescript-remove.md'
+        - sitescript set: 'cmd/spo/sitescript/sitescript-set.md'
+      - storageentity:
+        - storageentity get: 'cmd/spo/storageentity/storageentity-get.md'
+        - storageentity list: 'cmd/spo/storageentity/storageentity-list.md'
+        - storageentity remove: 'cmd/spo/storageentity/storageentity-remove.md'
+        - storageentity set: 'cmd/spo/storageentity/storageentity-set.md'
+      - tenant:
+        - tenant appcatalogurl get: 'cmd/spo/tenant/tenant-appcatalogurl-get.md'
+        - tenant settings list: 'cmd/spo/tenant/tenant-settings-list.md'
+        - tenant settings set: 'cmd/spo/tenant/tenant-settings-set.md'
+      - term:
+        - term add: 'cmd/spo/term/term-add.md'
+        - term get: 'cmd/spo/term/term-get.md'
+        - term list: 'cmd/spo/term/term-list.md'
+        - term group add: 'cmd/spo/term/term-group-add.md'
+        - term group get: 'cmd/spo/term/term-group-get.md'
+        - term group list: 'cmd/spo/term/term-group-list.md'
+        - term set add: 'cmd/spo/term/term-set-add.md'
+        - term set get: 'cmd/spo/term/term-set-get.md'
+        - term set list: 'cmd/spo/term/term-set-list.md'
+      - theme:
+        - theme apply: 'cmd/spo/theme/theme-apply.md'
+        - theme get: 'cmd/spo/theme/theme-get.md'
+        - theme list: 'cmd/spo/theme/theme-list.md'
+        - theme remove: 'cmd/spo/theme/theme-remove.md'
+        - theme set: 'cmd/spo/theme/theme-set.md'
+      - web:
+        - web add: 'cmd/spo/web/web-add.md'
+        - web clientsidewebpart list: 'cmd/spo/web/web-clientsidewebpart-list.md'
+        - web get: 'cmd/spo/web/web-get.md'
+        - web list: 'cmd/spo/web/web-list.md'
+        - web remove: 'cmd/spo/web/web-remove.md'
+        - web set: 'cmd/spo/web/web-set.md'
+    - SharePoint Framework (spfx):
+      - project:
+        - project upgrade: 'cmd/spfx/project/project-upgrade.md'
+    - Microsoft Graph (graph):
+      - login: 'cmd/graph/login.md'
+      - logout: 'cmd/graph/logout.md'
+      - status: 'cmd/graph/status.md'
+      - groupsetting:
+        - groupsetting add: 'cmd/graph/groupsetting/groupsetting-add.md'
+        - groupsetting get: 'cmd/graph/groupsetting/groupsetting-get.md'
+        - groupsetting list: 'cmd/graph/groupsetting/groupsetting-list.md'
+        - groupsetting remove: 'cmd/graph/groupsetting/groupsetting-remove.md'
+        - groupsetting set: 'cmd/graph/groupsetting/groupsetting-set.md'
+      - groupsettingtemplate:
+        - groupsettingtemplate get: 'cmd/graph/groupsettingtemplate/groupsettingtemplate-get.md'
+        - groupsettingtemplate list: 'cmd/graph/groupsettingtemplate/groupsettingtemplate-list.md'
+      - o365group:
+        - o365group add: 'cmd/graph/o365group/o365group-add.md'
+        - o365group get: 'cmd/graph/o365group/o365group-get.md'
+        - o365group list: 'cmd/graph/o365group/o365group-list.md'
+        - o365group remove: 'cmd/graph/o365group/o365group-remove.md'
+        - o365group restore: 'cmd/graph/o365group/o365group-restore.md'
+        - o365group set: 'cmd/graph/o365group/o365group-set.md'
+      - siteclassification:
+        - siteclassification disable: 'cmd/graph/siteclassification/siteclassification-disable.md'
+        - siteclassification enable: 'cmd/graph/siteclassification/siteclassification-enable.md'
+        - siteclassification get: 'cmd/graph/siteclassification/siteclassification-get.md'
+      - teams:
+        - teams list: 'cmd/graph/teams/teams-list.md'
+        - teams channel add: 'cmd/graph/teams/teams-channel-add.md'
+      - user:
+        - user get: 'cmd/graph/user/user-get.md'
+        - user list: 'cmd/graph/user/user-list.md'
+        - user sendmail: 'cmd/graph/user/user-sendmail.md'
+    - Azure Management Service (azmgmt):
+      - login: 'cmd/azmgmt/login.md'
+      - logout: 'cmd/azmgmt/logout.md'
+      - status: 'cmd/azmgmt/status.md'
+      - flow:
+        - flow environment get: 'cmd/azmgmt/flow/flow-environment-get.md'
+        - flow environment list: 'cmd/azmgmt/flow/flow-environment-list.md'
+        - flow export: 'cmd/azmgmt/flow/flow-export.md'
+        - flow get: 'cmd/azmgmt/flow/flow-get.md'
+        - flow list: 'cmd/azmgmt/flow/flow-list.md'
+        - flow run get: 'cmd/azmgmt/flow/flow-run-get.md'
+        - flow run list: 'cmd/azmgmt/flow/flow-run-list.md'
+    - Azure Active Directory Graph (aad):
+      - login: 'cmd/aad/login.md'
+      - logout: 'cmd/aad/logout.md'
+      - status: 'cmd/aad/status.md'
+      - oauth2grant:
+        - oauth2grant add: 'cmd/aad/oauth2grant/oauth2grant-add.md'
+        - oauth2grant list: 'cmd/aad/oauth2grant/oauth2grant-list.md'
+        - oauth2grant remove: 'cmd/aad/oauth2grant/oauth2grant-remove.md'
+        - oauth2grant set: 'cmd/aad/oauth2grant/oauth2grant-set.md'
+      - service principal (sp):
+        - sp get: 'cmd/aad/sp/sp-get.md'
+  - Concepts:
+    - 'Persisting connection': 'concepts/persisting-connection.md'
+    - 'Authorization and access tokens': 'concepts/authorization-tokens.md'
+    - 'Command completion': 'concepts/completion.md'
+    - 'Communication with Office 365': 'concepts/communicating-o365.md'
+  - About:
+    - 'Why this CLI': 'about/why-cli.md'
+    - 'Comparison to SharePoint PowerShell': 'about/comparison-powershell.md'
+    - 'Release notes': 'about/release-notes.md'
+    - License: 'about/license.md'
+theme:
+  name: 'material'
+  palette:
+    primary: 'red'
+  logo: 'images/office.png'
+  feature:
+    tabs: true
+google_analytics:
+  - 'UA-110480857-1'
+  - 'auto'
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+extra:
+  social:
+    - type: 'twitter'
+      link: 'https://twitter.com/officedevpnp'
+    - type: 'youtube'
+      link: 'http://aka.ms/sppnp-videos'
+    - type: 'link'
+      link: 'https://aka.ms/sppnp'
+repo_url: http://github.com/pnp/office365-cli
+edit_uri: blob/master/docs/manual/docs
